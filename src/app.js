@@ -4,5 +4,5 @@ const characters = [
   { name: 'маг', health: 0 },
   { name: 'лучник', health: 0 },
 ];
-
+// eslint-disable-next-line
 const alive = characters.filter((item) => item.health > 0);
